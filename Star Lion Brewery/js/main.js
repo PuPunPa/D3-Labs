@@ -62,8 +62,8 @@ d3.json("data/revenues.json").then((data)=> {
 
     g.append("text")
         .attr("class", "x axis-label")
-        .attr("x", (w / 2))
-        .attr("y", h + 140)
+        .attr("x", (600 / 2))
+        .attr("y", 400 + 140)
         .attr("font-size", "20px")
         .attr("text-anchor", "middle")
         .attr("transform", "translate(-120, -50)")
